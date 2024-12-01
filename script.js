@@ -5,10 +5,10 @@ function firstNonRepeatedChar(str) {
 		if(str[i]!==str[i+1]){
 			rep = true;
 			return str[i]; 
-		}
+		} 
 	}
 	if(rep==false){
-		return "null";
+		return null;
 	}
 }
 const input = prompt("Enter a string");
